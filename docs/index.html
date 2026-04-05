@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // GitHub Pages SPA redirect: restores the path from the 404.html redirect
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&');
+          });
+          window.history.replaceState(
+            null, null,
+            decoded[0] + (decoded[1] ? '&' + decoded[1].slice(1) : '') + (l.hash || '')
+          );
+        }
+      }(window.location));
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret Boutique | Premium Women's Clothing</title>
+    <meta name="description" content="Secret Boutique – Premium women's clothing. Dresses, tops, skirts, outerwear & accessories curated with elegance and mystery." />
+    <meta name="author" content="Secret Boutique" />
+
+    <meta property="og:title" content="Secret Boutique | Premium Women's Clothing" />
+    <meta property="og:description" content="Where elegance meets mystery. Shop curated women's fashion." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Lovable" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <script type="module" crossorigin src="/assets/index-gghDOspp.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DBLva_iW.css">
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
