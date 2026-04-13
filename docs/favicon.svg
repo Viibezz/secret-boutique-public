@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="5" fill="#1d1920"/>
+  <text
+    x="16" y="23"
+    text-anchor="middle"
+    font-family="Georgia, 'Palatino Linotype', serif"
+    font-size="22"
+    font-style="italic"
+    fill="#d63a74"
+  >S</text>
+</svg>
